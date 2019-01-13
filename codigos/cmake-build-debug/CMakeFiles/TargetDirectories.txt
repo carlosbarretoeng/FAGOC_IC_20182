@@ -1,0 +1,3 @@
+/home/carlos/Área de Trabalho/FAGOC_IC_20182/codigos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/carlos/Área de Trabalho/FAGOC_IC_20182/codigos/cmake-build-debug/CMakeFiles/codigos.dir
+/home/carlos/Área de Trabalho/FAGOC_IC_20182/codigos/cmake-build-debug/CMakeFiles/edit_cache.dir

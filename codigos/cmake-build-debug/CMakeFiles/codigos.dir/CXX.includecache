@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/carlos/Área de Trabalho/FAGOC_IC_20182/codigos/main.cpp
+iostream
+-
+cmath
+-
+unistd.h
+-
+
