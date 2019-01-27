@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="codigos" targetName="codigos" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e8620ce7-0554-46a7-83fe-7ea5bc6a5779" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/codigos.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.cxx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/all_pop.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/all_pop.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/best_pop.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/best_pop.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codigos" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codigos" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/codigos.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/codigos.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/final_pop.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/final_pop.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/initial_pop.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/initial_pop.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/params.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/params.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/plot.out" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/plot.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+              <folding>
+                <element signature="e#232#398#0" />
+                <element signature="e#420#451#0" />
+                <element signature="e#473#555#0" />
+                <element signature="e#6514#6739#0" />
+                <element signature="e#6514#6930#0" />
+                <element signature="e#6932#7503#0" />
+                <element signature="e#8526#9011#0" />
+                <element signature="e#9013#9530#0" />
+                <element signature="e#9532#9684#0" />
+                <element signature="e#9686#9834#0" />
+                <element signature="e#9836#10073#0" />
+                <element signature="e#10075#10166#0" />
+                <element signature="e#10168#10726#0" />
+                <element signature="e#10728#10943#0" />
+                <element signature="e#10945#11287#0" />
+                <element signature="e#11289#11463#0" />
+                <element signature="e#11465#11562#0" />
+                <element signature="e#11564#11661#0" />
+                <element signature="e#11663#14461#0" />
+                <element signature="e#14463#15711#0" />
+                <element signature="e#15713#15985#0" />
+                <element signature="e#15987#16955#0" />
+                <element signature="e#16957#17136#0" />
+                <element signature="e#17138#18486#0" />
+                <element signature="e#18488#19338#0" />
+                <element signature="e#19340#20246#0" />
+                <element signature="e#20248#20737#0" />
+                <element signature="e#20739#20915#0" />
+                <element signature="e#20917#22000#0" />
+                <element signature="e#22002#23337#0" />
+                <element signature="e#23339#23747#0" />
+                <element signature="e#23749#23890#0" />
+                <element signature="e#23892#24301#0" />
+                <element signature="e#24303#24634#0" />
+                <element signature="e#24636#25463#0" />
+                <element signature="e#25465#25589#0" />
+                <element signature="e#25591#26340#0" />
+                <element signature="e#26342#26955#0" />
+                <element signature="e#26957#29828#0" />
+                <element signature="e#29830#30342#0" />
+                <element signature="e#30344#30489#0" />
+                <element signature="e#30491#30791#0" />
+                <element signature="e#30793#31885#0" />
+                <element signature="e#31887#32342#0" />
+                <element signature="e#32344#32508#0" />
+                <element signature="e#32510#32651#0" />
+                <element signature="e#32653#34914#0" />
+                <element signature="e#34916#35823#0" />
+                <element signature="e#35825#36671#0" />
+                <element signature="e#36673#37140#0" />
+                <element signature="e#37142#38282#0" />
+                <element signature="e#38284#43248#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/main.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2" />
+    <option name="y" value="3" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="codigos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="codigos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="codigos" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="codigos" TARGET_NAME="codigos" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="codigos" RUN_TARGET_NAME="codigos">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e8620ce7-0554-46a7-83fe-7ea5bc6a5779" name="Default Changelist" comment="" />
+      <created>1548589634521</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548589634521</updated>
+      <workItem from="1548589637742" duration="4727000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4727000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-1" width="1920" height="1080" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12379936" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Messages" weight="0.32979852" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="CMake" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32979852" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="159" column="25" lean-forward="true" selection-start-line="159" selection-start-column="25" selection-end-line="159" selection-end-column="25" />
+          <folding>
+            <element signature="e#232#398#0" />
+            <element signature="e#420#451#0" />
+            <element signature="e#473#555#0" />
+            <element signature="e#6514#6739#0" />
+            <element signature="e#6514#6930#0" />
+            <element signature="e#6932#7503#0" />
+            <element signature="e#8526#9011#0" />
+            <element signature="e#9013#9530#0" />
+            <element signature="e#9532#9684#0" />
+            <element signature="e#9686#9834#0" />
+            <element signature="e#9836#10073#0" />
+            <element signature="e#10075#10166#0" />
+            <element signature="e#10168#10726#0" />
+            <element signature="e#10728#10943#0" />
+            <element signature="e#10945#11287#0" />
+            <element signature="e#11289#11463#0" />
+            <element signature="e#11465#11562#0" />
+            <element signature="e#11564#11661#0" />
+            <element signature="e#11663#14461#0" />
+            <element signature="e#14463#15711#0" />
+            <element signature="e#15713#15985#0" />
+            <element signature="e#15987#16955#0" />
+            <element signature="e#16957#17136#0" />
+            <element signature="e#17138#18486#0" />
+            <element signature="e#18488#19338#0" />
+            <element signature="e#19340#20246#0" />
+            <element signature="e#20248#20737#0" />
+            <element signature="e#20739#20915#0" />
+            <element signature="e#20917#22000#0" />
+            <element signature="e#22002#23337#0" />
+            <element signature="e#23339#23747#0" />
+            <element signature="e#23749#23890#0" />
+            <element signature="e#23892#24301#0" />
+            <element signature="e#24303#24634#0" />
+            <element signature="e#24636#25463#0" />
+            <element signature="e#25465#25589#0" />
+            <element signature="e#25591#26340#0" />
+            <element signature="e#26342#26955#0" />
+            <element signature="e#26957#29828#0" />
+            <element signature="e#29830#30342#0" />
+            <element signature="e#30344#30489#0" />
+            <element signature="e#30491#30791#0" />
+            <element signature="e#30793#31885#0" />
+            <element signature="e#31887#32342#0" />
+            <element signature="e#32344#32508#0" />
+            <element signature="e#32510#32651#0" />
+            <element signature="e#32653#34914#0" />
+            <element signature="e#34916#35823#0" />
+            <element signature="e#35825#36671#0" />
+            <element signature="e#36673#37140#0" />
+            <element signature="e#37142#38282#0" />
+            <element signature="e#38284#43248#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

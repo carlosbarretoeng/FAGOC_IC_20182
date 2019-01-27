@@ -6,8 +6,6 @@ using namespace std;
 
 # define INF 1.0e14
 # define EPS 1.0e-14
-# define E  2.71828182845905
-# define PI 3.14159265358979
 # define GNUPLOT_COMMAND "gnuplot -persist"
 
 typedef struct {
@@ -65,10 +63,10 @@ double oldrand[55];
 int jrand;
 
 // - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-
+char cenario[50];
 const int tamanhoVetores = 25;
-const float medias[25] = {22.07f,22.75f,13.02f,43.82f,50.08f,35.27f,20.43f,25.53f,9.57f,15.26f,38.86f,13.63f,22.82f,13.46f,15.53f,7.84f,11.86f,14.15f,29.20f,21.50f,34.80f,17.36f,29.31f,9.55f,7.27f};
-const float desvio[25] = {2.11f,0.87f,0.80f,2.41f,2.41f,2.52f,1.78f,1.03f,0.45f,1.55f,3.06f,1.73f,2.66f,0.61f,1.13f,0.63f,0.60f,0.87f,6.06f,1.06f,1.48f,1.20f,1.31f,0.90f,0.57f};
+const float medias[25] = {0.36f,0.04f,0.11f,0.19f,0.07f,-0.08f,0.33f,0.02f,-0.26f,-0.41f,0.05f,-0.43f,-0.41f,0.10f,0.27f,0.12f,-0.17f,0.18f,-0.58f,0.06f,-0.06f,0.11f,-0.08f,-0.04f,0.28f};
+const float desvio[25] = {0.022f,0.011f,0.019f,0.019f,0.017f,0.024f,0.022f,0.017f,0.019f,0.021f,0.019f,0.021f,0.020f,0.021f,0.028f,0.025f,0.016f,0.018f,0.039f,0.021f,0.018f,0.018f,0.015f,0.030f,0.024f};
 const float correl[25][25] = {
         {1.000f,0.759f,0.819f,0.436f,0.723f,0.056f,0.990f,0.697f,-0.490f,-0.868f,0.623f,-0.916f,-0.674f,0.688f,0.818f,0.887f,-0.697f,0.850f,-0.876f,0.620f,-0.553f,0.776f,-0.449f,-0.579f,0.829f},
         {0.759f,1.000f,0.634f,0.107f,0.432f,-0.038f,0.736f,0.594f,-0.451f,-0.802f,0.509f,-0.826f,-0.692f,0.165f,0.546f,0.803f,-0.700f,0.674f,-0.841f,0.391f,-0.548f,0.721f,-0.566f,-0.774f,0.513f},
@@ -153,7 +151,7 @@ void inicializaTeste(){
 
     seed = 0.001f;
     popsize = 100;
-    ngen = 1000;
+    ngen = 5000;
     nobj = 2;
     ncon = 2;
     nreal = tamanhoVetores;
@@ -166,7 +164,9 @@ void inicializaTeste(){
     obj2 = 2;
     obj3 = -1;
 
-    pmut_real = 1 / nreal;
+    pmut_real = 0.1; // 1 / nreal;
+
+    sprintf(cenario, "%d Ações - %2.0f crossover - %2.0f mutação - Gerações %d", tamanhoVetores, pcross_real * 100, pmut_real * 100, ngen);
 
     min_realvar = (double *) malloc(nreal * sizeof(double));
     max_realvar = (double *) malloc(nreal * sizeof(double));
@@ -610,7 +610,7 @@ void onthefly_display(population *pop, FILE *gp, int ii) {
     for (i = 0; i < popsize; i++) {
         if (pop->ind[i].constr_violation == 0) {
             if (choice != 3)
-                fprintf(fpt, "%e\t%e\n", pop->ind[i].obj[obj1 - 1], pop->ind[i].obj[obj2 - 1]);
+                fprintf(fpt, "%e\t%e\n", -1*pop->ind[i].obj[obj1 - 1], pop->ind[i].obj[obj2 - 1]);
             else
                 fprintf(fpt, "%e\t%e\t%e\n", pop->ind[i].obj[obj1 - 1], pop->ind[i].obj[obj2 - 1],
                         pop->ind[i].obj[obj3 - 1]);
@@ -622,7 +622,7 @@ void onthefly_display(population *pop, FILE *gp, int ii) {
         // printf("\n No feasible soln in this pop, hence no display");
     } else {
         if (choice != 3){
-            fprintf(gp, "set title 'Generation #%d'\n unset key\n plot 'plot.out' w points pointtype 6 pointsize 1\n", ii);
+            fprintf(gp, "set title '%s'\n unset key\n plot 'plot.out' w points pointtype 1 pointsize 1; set grid ytics lt 0 lw 1 lc rgb '#bbbbbb'; set grid xtics lt 0 lw 1 lc rgb '#bbbbbb';set xlabel 'Retorno';set ylabel 'Risco'\n", cenario);
         }else{
             fprintf(gp, "set title 'Generation #%d'\n set view %d,%d\n unset key\n splot 'plot.out' w points pointtype 6 pointsize 1\n", ii, angle1, angle2);
         }
